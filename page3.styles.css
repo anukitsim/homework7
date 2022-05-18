@@ -1,0 +1,46 @@
+body{
+    background-color: #ccfce4
+}
+
+
+
+.hero{
+    min-height: 100vh;
+    width: 100%;
+    background-color:#ccfce4 ;
+    background-image: url(imgs/1.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    color: white;
+    padding: 0 8%;
+}
+
+.logo-img{
+    width: 30px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.link{
+    font-family:'Dancing Script', cursive;
+    color: #e6196c;
+
+    
+}
+.link a:hover { color: #FF1493 !important; 
+}
+
+.btn1{
+    background-color:#FF1493;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+.button:hover {
+    background-color: black !important;
+  }
